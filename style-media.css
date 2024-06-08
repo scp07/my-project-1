@@ -1,0 +1,187 @@
+@media (max-width: 1361px) {
+    .container{
+        width: 90%;
+        margin: auto;
+    }
+    .main-nav{
+        margin-top: 15px;
+    }
+    .company-logo{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    h1{
+        font-size: coco2.8rem;
+    }
+    .examples-area .examples-cards{
+        width: 45%;
+        height: 180px;
+    }
+    .examples-area .examples-cards h3{
+        font-size: 28px;
+    }
+    /* cta-section */
+    .cta-area{
+        padding: 70px var(--padding-inline-section) 80px;
+        gap: 20px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .cta-area h2{
+        font-size: 1.7rem;
+    }
+    /*  */
+
+}
+@media (max-width: 881px) {
+    .container{
+        width: 98%;
+        margin: auto;
+    }
+    .main-nav{
+        margin-top: 15px;
+    }
+    .header-left h1{
+        margin-bottom: 8px;
+        font-size: 2.6rem;
+       line-height: 50px;
+    }
+    .header-left p{
+        margin-bottom: 13px;
+    }
+    .fetures-top{
+        padding: 30px var(--padding-inline-section) 0;
+    }
+    .company-logo{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 15px;
+    }
+    .company-logo .logos{
+        width: 30%;
+    }
+}
+
+/* Starting into tablets somewhere in here */
+@media (max-width: 767px) {
+    .header-section{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .header-right img{
+        width: 100%;
+    }
+    .header-left{
+        max-width: 100vw;
+    }
+    .header-left h1{
+        margin-bottom: 8px;
+        font-size: 2.6rem;
+       line-height: 50px;
+    }
+    .secondary-button{
+        width: 91%;
+       border-radius: 10px;
+    }
+    .header-left p{
+        margin-bottom: 13px;
+    }
+    .fetures-item{
+        gap: 5px;
+    }
+    .fetures-card{
+        width: 45%;
+    }
+
+    
+
+}
+
+/* Perhaps bigger tablets */
+@media (max-width: 619px) {
+    .fetures-card{
+        width: 100%;
+    }
+    .header-toggol i{
+        margin-right: 0px;
+    }
+}
+
+/* Desktop screen or landscape tablet */
+@media (max-width: 1280px) {
+    .container{
+        width: 93%;
+        margin: auto;
+    }
+    .main-nav{
+        margin-top: 15px;
+    }
+    .header-toggol i{
+        display: inline;
+    }
+    .nav-ul{
+        display: none;
+    }
+    .examples-area .examples-cards h3{
+        font-size: 1.2rem;
+    }
+}
+
+/* A bit bigger if you need some adjustments around here */
+@media (max-width: 883px) {
+    /* deginers sections */
+    .deginers-all{
+        flex-direction: column-reverse;
+    }
+    .deginers-other{
+        flex-direction: column;
+    }
+    .degainers-left{
+        width: 100%;
+    }
+    .degainers-right{
+        width: 100%;
+    }
+}
+
+/* Widescreens */
+@media (max-width: 698px) {
+    .examples-area .examples-cards{
+        width: 100%;
+        height: 180px;
+    }
+    .company-logo .logos{
+        width: 45%;
+    }
+}
+@media (max-width: 265px) {
+    .examples-area .examples-cards h3{
+        font-size: 13px;
+    }
+    
+}
+@media (max-width: 940px) {
+    .footer-area{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    /* footer section */
+    .sub-icons{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+}
+@media (max-width: 430px) {
+    .company-logo .logos{
+        width: 100%;
+    }
+}
+@media (max-width: 200px) {
+    .company-logo .logos{
+        width: 100px;
+    }
+}
