@@ -121,7 +121,7 @@ ul{
 
 
 /* nav section start from here  */
-.nav-links ul{
+.nav-links .nav-ul{
      gap: 35px;
 
 }
@@ -133,7 +133,53 @@ ul{
     justify-content: space-between;
 }
 
-
+/* resposive nav bar */
+.nav-responsive{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: fixed;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    width: 400px;
+    top: 0;
+    right: 0;
+    background-color: rgba(201, 198, 198,0.2px);
+    box-shadow: -10px 0 10px rgb(0,0,0,0.1);
+    gap: 15px;
+    z-index: 999;
+    display: none;
+}
+.nav-responsive li{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    transition: 0.9s;
+}
+.nav-responsive li a{
+    color: black;
+}
+.nav-responsive .responsive-nav-li:hover{
+   background-color: #d7d8d8;
+   color: white;
+}
+.nav-responsive .button{
+    padding: 10px 15px;
+    width: 100%;
+}
+.nav-responsive li{
+    margin-top: 0;
+}
+.nav-responsive .xmark-li a i{
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
+.nav-responsive .res-frist-li{
+    margin-top: 60px;
+}
 /* header section start from here */
 
 .header-section {

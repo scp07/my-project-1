@@ -95,9 +95,6 @@
     .fetures-card{
         width: 45%;
     }
-
-    
-
 }
 
 /* Perhaps bigger tablets */
@@ -121,6 +118,7 @@
     }
     .header-toggol i{
         display: inline;
+        color: black;
     }
     .nav-ul{
         display: none;
@@ -179,9 +177,21 @@
     .company-logo .logos{
         width: 100%;
     }
+ /* responsive nav bar */
+    .nav-responsive{
+        width: 100%;
+    }
+         
+     
 }
 @media (max-width: 200px) {
     .company-logo .logos{
         width: 100px;
+    }
+}
+@media (max-width: 358px) {
+
+    .company-logo img{
+        width: 180px;
     }
 }

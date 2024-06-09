@@ -23,7 +23,6 @@
         <div class="container main-nav flex">
             <a href="#" class="company-logo">
                 <img src="images/asset 0.png" alt="logo image">
-                ..
             </a>
             <div class="nav-links">
                 <ul class="flex nav-ul">
@@ -35,7 +34,16 @@
                     <li><a href="#home" class="secondary-button">sing up</a></li>
                     
                 </ul>
-                <a href="#home" class="header-toggol"><i class="fa-solid fa-bars"></i></a>
+                <ul class="nav-responsive">
+                    <li class="res-frist-li"><a href="#home" class="primary-button button">sing in</a></li>
+                    <li ><a href="#home" class="secondary-button button">sing up</a></li>
+                    <li class="responsive-nav-li"><a href="#home">products</a></li>
+                    <li class="responsive-nav-li"><a href="#home">customars</a></li>
+                    <li class="responsive-nav-li"><a href="#home">pricing</a></li>
+                    <li class="responsive-nav-li"><a href="#home">Resturents</a></li>
+                    <li class="xmark-li" onclick="slidebar()"><a href=""><i class="fa-solid fa-xmark"></i></a></li>
+                </ul>
+                <li style="list-style: none;" onclick="sidelogo()"><a href="#home" class="header-toggol"><i class="fa-solid fa-bars button2"></i></a></li>
             </div>
         </div>
    </div>
@@ -228,5 +236,6 @@
         <i class="fa-brands fa-twitter"></i>
     </div>
 </div>
+<script src="nav.js"></script>
 </body>
 </html>
